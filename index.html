@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="C:\Users\asus\OneDrive\Desktop\portfolioproj\WhatsApp Image 2023-10-17 at 19.43.41.jpeg" alt="Profile Picture" class="profile-picture">
+           
+            <nav>
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-me" id="about-me">
+        <div class="container">
+            <h2>Aryanandha k p</h2>
+            <p>Hello, I'm Aryanandha k p, a passionate computer science student with interests in various programming languages and technologies. I have experience and proficiency in Python, Java, C, C++, and bash scripting. I enjoy exploring different aspects of software development, including algorithm design, data structures, and system administration.</p>
+            <p>My journey in computer science has fueled my curiosity to delve deeper into software engineering principles and methodologies. I am enthusiastic about learning new technologies and frameworks to enhance my skills and broaden my understanding of computer science concepts.</p>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <div class="project-details">
+                    <h3>Project 1</h3>
+                    <h2>Fuel Delivery System</h2>
+                    <p>I am actively involved in the development of a fuel delivery app, aiming to simplify fuel procurement by allowing customers to order online. Leveraging JavaScript for frontend development and MySQL for database management, our project emphasizes user convenience and secure transactions. With real-time tracking and customizable profiles, we aim to revolutionize fuel delivery logistics, ensuring a seamless and personalized experience</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <img src="C:\Users\asus\OneDrive\Desktop\portfolioproj\fuel.jpg" alt="Project 1 Image" class="project-image">
+            </div>
+            <div class="project">
+                <div class="project-details">
+                    <h3>Project 2</h3>
+                    <h2>Hotel Management System</h2>
+                    <p>I am actively engaged in the development of a Hotel Management System (HMS), a comprehensive software solution designed to optimize hotel operations and guest management. Utilizing Python programming language and MySQL database system, our project emphasizes a user-friendly graphical interface for hotel administrators to efficiently manage guests, rooms, reservations, and other critical aspects of their business. With key features including secure user authentication, streamlined guest and room management, and intuitive reservation handling, our HMS aims to simplify hotel administration processes and enhance guest experiences.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <img src="C:\Users\asus\OneDrive\Desktop\portfolioproj\hotel.jpg" alt="Project 2 Image" class="project-image">
+            </div>
+        </div>
+    </section>
+  
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Bash Scripting</li>
+               
+            </ul>
+            <div class="skill-image">
+                <img src="C:\Users\asus\OneDrive\Desktop\portfolioproj\skills.jpeg" alt="Python Logo">
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2>Contact Details</h2>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/aryanandha-kp-83b658268/" target="_blank">
+                    <img src="linkedin.jpg" alt="LinkedIn" width="50" height="50">
+                </a>
+                <a href="https://github.com/Aryanandhakp66" target="_blank">
+                    <img src="gith.png" alt="GitHub" width="50" height="50">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Aryanandha k p. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+       document.addEventListener('DOMContentLoaded', function () {
+            const learnMoreLinks = document.querySelectorAll('.learn-more');
+
+            learnMoreLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+            alert('Development in progress.More information will be provided soon!');
+                    
+                });
+            });
+        });
+
+    </script>
+
+</body>
+</html>
